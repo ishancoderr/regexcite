@@ -1,4 +1,3 @@
-# newRPackage
+# wholeGame
 newly created R package 
 
-#sample push

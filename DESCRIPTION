@@ -1,0 +1,14 @@
+Package: regexcite
+Type: Package
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.1000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stringr
+Suggests:
+    testthat
+RoxygenNote: 7.3.1

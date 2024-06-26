@@ -15,7 +15,7 @@ You can install the development version of regexcite from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("ishancoderr/newRPackage")
+devtools::install_github("ishancoderr/regexcite")
 ```
 
 ## Example

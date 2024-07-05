@@ -1,0 +1,29 @@
+---
+title: "example-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(regexcite)
+```
+
+```{r}
+data(example_data)
+example_data
+```
+
+```{r}
+example_data$value[1]
+str_split_one(example_data$value[1], pattern = ",")
+```

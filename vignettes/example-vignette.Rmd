@@ -27,3 +27,9 @@ example_data
 example_data$value[1]
 str_split_one(example_data$value[1], pattern = ",")
 ```
+
+```{r}
+csv_path <- system.file("csv/data.csv", package = "regexcite")
+external_data <- read.csv(csv_path)
+external_data
+```

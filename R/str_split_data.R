@@ -7,3 +7,5 @@ example_data <- data.frame(
 # Save dataset
 save(example_data, file = "data/example_data.rda")
 
+write.csv(example_data, "inst/csv/data.csv", row.names = FALSE)
+
